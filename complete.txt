@@ -1,0 +1,9 @@
+nmcli con add ifname xenbr0 type bridge con-name xenbr0
+
+nmcli con add type bridge-slave ifname ens33 master xenbr0
+
+nmcli con show
+
+nmcli con down "Wired connection 1"
+nmcli con up br0
+
