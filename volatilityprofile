@@ -1,0 +1,3 @@
+cd /tmp
+python3 ~/drakvuf/volatility3/volatility/framework/symbols/windows/pdbconv.py --guid 3844dbb920174967be7aa4a2c20430fa2 -p ntkrpamp.pdb -o windows7-sp1.json
+sudo mv windows7-sp1.json /root

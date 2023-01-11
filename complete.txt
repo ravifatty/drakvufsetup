@@ -1,9 +1,8 @@
-nmcli con add ifname xenbr0 type bridge con-name xenbr0
 
-nmcli con add type bridge-slave ifname ens33 master xenbr0
 
-nmcli con show
 
-nmcli con down "Wired connection 1"
-nmcli con up br0
+
+
+python3 ~/drakvuf/volatility3/volatility3/framework/symbols/windows/pdbconv.py --guid 3844dbb920174967be7aa4a2c20430fa2 -p ntkrnlmp.pdb -o windows7-sp1.json
+
 
