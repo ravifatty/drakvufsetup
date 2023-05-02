@@ -7,3 +7,4 @@ nmcli con show
 nmcli con down "Wired connection 1"
 nmcli con up br0
 
+nmcli con delete bridge-slave-wlp0s20f3
